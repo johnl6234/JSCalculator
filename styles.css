@@ -1,0 +1,84 @@
+﻿body
+{
+    justify-content:center;
+    align-items:center;
+}
+
+.mainBody {
+    border-radius: 10px;
+    padding: 40px 20px 40px 20px;
+    margin: auto;
+    width: 400px;
+    height: auto;
+    background-image: linear-gradient(-45deg, black, grey);
+}
+
+.screen {
+    display: flex;
+    align-items: center;
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, black, grey);
+    border-image-slice: 1;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: aquamarine;
+    height: 80px;
+    position: relative;
+}
+
+.small-screen-text {
+    text-align: left;
+    font-size:12px;
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    top: 2px;
+    left: 2px;
+}
+.screen-text {
+    text-align: right;
+    font-size:64px;
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    bottom: 8px;
+    right: 10px;
+}
+
+.button-grid {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.button-container {
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+button {
+    color: white;
+    font-size: 32px;
+    border-radius: 20px;
+    background-color: darkgray;
+    background-image: linear-gradient(black, grey, black);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+    button:active {
+        outline: none;
+        border: none;
+    }
+    button:focus {
+        outline: 0;
+    }
+
