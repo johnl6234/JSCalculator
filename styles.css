@@ -4,13 +4,23 @@
     align-items: center;
 }
 
+.background {
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    width: 410px;
+    height: auto;
+    background-image: linear-gradient(45deg, grey, grey, lightgrey, grey, grey);
+    box-shadow: 5px 5px 5px 3px ;
+}
 .mainBody {
     border-radius: 10px;
     padding: 40px 20px 40px 20px;
     margin: auto;
     width: 400px;
     height: auto;
-    background-image: linear-gradient(-45deg, black, grey);
+    background-image: linear-gradient(-45deg, grey, grey, lightgrey, grey, grey);
+    box-shadow: 5px 5px 5px 3px inset;
 }
 
 .screen {
@@ -18,8 +28,7 @@
     display: flex;
     align-items: center;
     border: 10px solid;
-    border-image-source: linear-gradient(45deg, black, grey);
-    border-image-slice: 1;
+    border-color: rgb(78, 72, 72);
     border-radius: 5px;
     width: 80%;
     margin: auto;
@@ -27,6 +36,8 @@
     background-color: aquamarine;
     height: 80px;
     position: relative;
+    box-shadow: rgb(75, 183, 147) 3px 3px 3px 3px inset;
+
 }
 
 .small-screen-text {
@@ -72,6 +83,7 @@
     width: 100%;
     padding-top: 100%;
     position: relative;
+    box-shadow: 2px 2px 2px 2px;
 }
 .button-container-equals {
     border-radius: 20px;
@@ -80,6 +92,7 @@
     position: relative;
     grid-column-start: 1;
     grid-column-end: 4;
+    box-shadow: 2px 2px 2px 3px;
 }
 
 .number-button {
@@ -93,6 +106,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    box-shadow: 1px 1px 1px 1px inset;
 }
 
 button:active {
